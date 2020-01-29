@@ -7,101 +7,109 @@ Kelly Hutchins and Heather Gonzago
 
 ----
 
-### **Overview**
-</br>
-<img style="float: right;" src="images/introMan.png">
+Ever have one of those days where nothing seems to work? 
+<img style="height: 625px;" src="images/frustrated.jpeg">
 
-- Setting up your dev environment
-- JSAPI resources and tips
-- Browser tips and tools
-- … and more
+----
+
+You keep staring at the same code, but you have nothing...
+<img src="images/code-flying.jpeg">
+
+----
+
+Debugging tools === Productive programmers
+<img src="images/debug-happy.png">
+
+----
+### **Things we'll discuss**
+</br>
+
+- Development environment
+- ArcGIS API for JavaScript resources 
+- Debugging problem code
+ - Browser developer tools
+ - 3rd party user forums (if you are unsure, others may have already answered)
 
 ----
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 </br></br>
-## **Dev environment setup**
+## **Set up your development environment**
 
 ----
 
-
 ### **Local web server**
-
 </br>
-<img style="float: right;" src="images/localWebServer.png">
-
+- Setup IIS (Windows) or Apache (already installed on Mac OSX)
 - Visit [http://localhost](http://localhost)
-- Setup IIS or Apache
-- Lightweight http server
-- http-server
-- Express
-- Browser extensions
+- Some examples include:
+ - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+ - [local-web-server](https://www.npmjs.com/package/local-web-server)
+ - [http-server](https://www.npmjs.com/package/http-server)
+
+----
+
+### **Code snippets**
+<img style="float: right;" src="images/snippet.png">
+
+- Templates for reuseable code
+- [ArcGIS API for JavaScript snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets&ssr=false#overview)
+- [Snippet generator](https://pawelgrzybek.com/snippet-generator/)
+- Emmett
+ - Save keystrokes
+ - HTML, CSS abbreviations
+ - [Plug-in page](https://emmet.io/download/)
 
 ----
 
 ### **Code Assist**
 </br>
 <a href="https://github.com/kellyhutchins/DS2018-TipsAndTricks/blob/master/CodeAssistDemos/javascript-demo/README.md" target="_blank">
-  <img style="float: right;" src="images/intellisense.png">
+  <img style="float: right; width:771px; height:447px" src="images/intellisense.png">
 </a>
 
-- TypeScript
-- JS using Babel
+- Much easier to code
+- via TypeScript or
+- JavaScript using Babel
 
 ----
 
-### **Emmet**
-</br>
-  <img style="float: right;" src="images/emmet.png">
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 
-- Save keystrokes
-- HTML, CSS abbreviations
-- [Plug-in page](https://emmet.io/download/)
-
-----
-
-### **Snippets**
-</br>
-  
-<img style="float: right;" src="images/snippet.png">
-
-- Templates for common code
-- Generate for VSCode, Sublime, Atom
-- [Snippet generator](https://pawelgrzybek.com/snippet-generator/)
-- Extensions for IDE to simplify
-
-----
-
-### **JSAPI Resources**
-
-</br>
-<a href="https://github.com/Esri/jsapi-resources" target="_blank">
-  <img style="float: right;" src="images/jsapiResources.png">
-</a>
-
-- JSHint file
-- TypeScript definition file
-- Build tools, e.g. Bower
-- OAuth Callback
+## **Demo: Code Assist**
 
 ----
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 </br></br>
-## **Browser Dev Tools**
+## **Troubleshooting your web application**
 
 ----
 
-### **Browser Extensions **
+### **Narrow down the problem**
 
-- WhatFont
-- JSON Viewer
-- JavaScript and CSS Code Beautifier
-- Awesome autocomplete for GitHub
-- Wappalyzer
-- Quick source viewer
+<img style="float: right"; src="images/onion.jpg">
+
+Debugging tools can help determine:
+- Is it code-related?
+- Client or server-side issue?
+- Is there a network issue?
+- Is the issue with the data?
+
 
 ----
+
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+</br></br>
+## **Browser Dev Tools: Code issues**
+
+----
+
+- Modules out
+
+----
+
+
 
 ### **Debugging:  Breakpoints**
 
