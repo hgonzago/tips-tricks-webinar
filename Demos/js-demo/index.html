@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webinar Demo</title>
+  <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+  <link id="jsapiTheme" rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/light/main.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <script>
+    // Apply dark color scheme if specified 
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      const link = document.getElementById("jsapiTheme");
+      link.href = `https://js.arcgis.com/4.14/esri/themes/dark/main.css`
+    }
+    var locationPath = location.pathname.replace(/\/[^\/]+$/, "");
+    window.dojoConfig = {
+      packages: [{
+        name: "app",
+        location: locationPath + "/app"
+      }]
+    };
+
+  </script>
+  <script src="https://js.arcgis.com/4.14/"></script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <script>
+    require(["app/fixed"]);
+
+  </script>
+</body>
+
+</html>
