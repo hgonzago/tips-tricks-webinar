@@ -36,8 +36,16 @@ Debugging tools === Productive programmers
 ----
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-</br></br>
-## **Set up your development environment**
+
+  <img src="images/ligatures.png" style="position:absolute;bottom:0;right:0;"/>
+## Setup
+   - Extensions
+     - Beautify
+     - EsLint
+     - Bracket colorizer 
+   - Programming font with ligatures 
+     - Fira Code, Hasklig, Cascadia  
+
 
 ----
 
