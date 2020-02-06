@@ -44,8 +44,8 @@ Debugging tools === Productive programmers
 ### **Local web server**
 </br>
 - Setup IIS or Apache 
-- Visit [http://localhost](http://localhost)
-- Some examples include:
+  - Visit [http://localhost](http://localhost)
+- Local dev server with live reload:
  - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
  - [local-web-server](https://www.npmjs.com/package/local-web-server)
  - [http-server](https://www.npmjs.com/package/http-server)
