@@ -66,7 +66,7 @@ Debugging tools === Productive programmers
 
 ### **TypeScript/Babel**
 
-<a href="https://github.com/kellyhutchins/DS2018-TipsAndTricks/blob/master/CodeAssistDemos/javascript-demo/README.md" target="_blank">
+<a href="./Demos/babel-demo/readme.md" target="_blank">
   <img style="float: right; width:761px; height:447px" src="images/intellisense.png">
 </a>
 - Code assist
@@ -75,20 +75,21 @@ Debugging tools === Productive programmers
 
 
 ----
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+
+## **Demo: Code Assist**
+
+  <video src="images/babel_intellisense.mp4" controls></video>
+
+----
 
 ### ** Starter App **
 
-<img style="float: right; width:761px; height:447px" src="images/cliapp.png">
+<a target="_blank" href="https://jsapi-414-template-app.surge.sh/"><img style="float: right; width:761px; height:447px" src="images/cliapp.png">
 </a>
 - TypeScript
 - WebPack
 - [ArcGIS API JS Template App](https://github.com/odoe/jsapi-cli-template-app)
-
-----
-
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-
-## **Demo: Code Assist**
 
 ----
 
@@ -180,39 +181,37 @@ view.when(function(){
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ### Debugging: Console tricks
 
-Kelly will show using locate button with http and open console to find error
-
-also, show how to easily get the view extent, etc. without global vars
-
-----
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-</br>
-</br>
-## Demo: Tricks to console</code>
+- View logged messages 
+  <a href="./Demos/js-demo/index.html"><img src="images/consoleerror.png"/></a>
+- Run JavaScript 
+  <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><pre style="display:inline-block; padding: 5px; margin: 10px auto; width: 100%;"><code data-trim> 
+  require("esri/views/View").views.items[0].extent.center.longitude;
+  require("esri/views/View").views.items[0].extent.center.latitude;
+  </code></pre></a>
 
 ----
+
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-### Missing CSS
+### CSS Themes 
 
-- Missing default UI elements
-<img src="images/merged-css.jpg">
-
+- Detect user color scheme preferences 
+  <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><pre style="display:inline-block; padding: 1em; auto; width: 100%;"><code data-trim> 
+    media="(prefers-color-scheme: dark)"
+    media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)
+  </code></pre></a>
+- Emulate via dev tools
+  <a href="./Demos/js-demo/index.html"><img src="./images/theme-prefs.png" style="float:right;"> </a>
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 #### Debugging: CSS 
 
-- Inspect API elements and make modifications
-- Show a11y tools with color contrast
-- Respect users light/dark preferences
-- Show .scss files so that we don't have to do 
+- Inspect element css 
+- View classes applied to selected element
+<img src="./images/computed-css.png">
+- <a target="_blank" href="https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Search.html">View widget styles</a>
 
 ----
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-</br>
-</br>
-### Demo: Managing CSS
 
-----
 <!-- .slide: data-background="reveal.js/img/bg-4.png" -->
 </br>
 ## Questions?

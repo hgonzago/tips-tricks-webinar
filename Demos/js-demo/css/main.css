@@ -6,3 +6,8 @@ body,
   margin: 0;
   padding: 0;
 }
+
+
+.esri-search__input::-webkit-input-placeholder {
+  color: #bf1c34;
+}
