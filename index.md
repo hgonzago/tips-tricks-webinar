@@ -43,7 +43,7 @@ Debugging tools === Productive programmers
 
 ### **Local web server**
 </br>
-- Setup IIS (Windows) or Apache (already installed on Mac OSX)
+- Setup IIS or Apache 
 - Visit [http://localhost](http://localhost)
 - Some examples include:
  - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
@@ -53,8 +53,7 @@ Debugging tools === Productive programmers
 ----
 
 ### **Code snippets**
-<img style="float: right;" src="images/snippet.png">
-
+<img style="float:right" src="https://github.com/Esri/arcgis-js-vscode-snippets/raw/master/./images/code-snippets.gif" alt="example">
 - Templates for reuseable code
 - [ArcGIS API for JavaScript snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets&ssr=false#overview)
 - [Snippet generator](https://pawelgrzybek.com/snippet-generator/)
@@ -66,15 +65,24 @@ Debugging tools === Productive programmers
 ----
 
 ### **TypeScript/Babel**
-</br>
-<a href="https://github.com/kellyhutchins/DS2018-TipsAndTricks/blob/master/CodeAssistDemos/javascript-demo/README.md" target="_blank">
-  <img style="float: right; width:771px; height:447px" src="images/intellisense.png">
-</a>
 
+<a href="https://github.com/kellyhutchins/DS2018-TipsAndTricks/blob/master/CodeAssistDemos/javascript-demo/README.md" target="_blank">
+  <img style="float: right; width:761px; height:447px" src="images/intellisense.png">
+</a>
 - Code assist
-- ES6 friendly
+- ES6 
 - <a href="https://developers.arcgis.com/javascript/latest/guide/typescript-setup/" target="_blank">TypeScript setup</a>
-- [ArcGIS API for JavaScript Template Application](https://github.com/odoe/jsapi-cli-template-app)
+
+
+----
+
+### ** Starter App **
+
+<img style="float: right; width:761px; height:447px" src="images/cliapp.png">
+</a>
+- TypeScript
+- WebPack
+- [ArcGIS API JS Template App](https://github.com/odoe/jsapi-cli-template-app)
 
 ----
 
