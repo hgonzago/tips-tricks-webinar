@@ -41,6 +41,7 @@ require([
       searchFields: ["Desc1", "Desc2", "Desc3", "Desc4"],
       name: "Nautical Piracy",
       placeholder: "Search incident details",
+
       withinViewEnabled: true
     });
 

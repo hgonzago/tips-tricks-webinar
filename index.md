@@ -48,7 +48,7 @@ Debugging tools === Productive programmers
  - Bracket colorizer 
  - Themes 
   
-<img src="images/Beautify.gif" />
+<img src="images/pretty.gif" />
   
 
 ----
@@ -88,8 +88,8 @@ Debugging tools === Productive programmers
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 
 ## **Demo: Code Assist**
-
-  <video src="images/babel_intellisense.mp4" controls></video>
+  - Show code assist 
+  - Show emmet 
 
 ----
 
@@ -201,31 +201,27 @@ view.when(function(){
 
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-### Debugging: Console tricks
+### Console
 
 - View logged messages 
   <a href="./Demos/js-demo/index.html"><img src="images/consoleerror.png"/></a>
 - Run JavaScript 
-  <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><pre style="display:inline-block; padding: 5px; margin: 10px auto; width: 100%;"><code data-trim> 
-  require("esri/views/View").views.items[0].extent.center.longitude;
-  require("esri/views/View").views.items[0].extent.center.latitude;
-  </code></pre></a>
+  
+  <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><img src="images/latlong.png"/></a>
 
 ----
 
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-### CSS Themes 
+### CSS: Color Themes 
 
 - Detect user color scheme preferences 
-  <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><pre style="display:inline-block; padding: 1em; auto; width: 100%;"><code data-trim> 
-    media="(prefers-color-scheme: dark)"
-    media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)
-  </code></pre></a>
+  - CSS media feature (light, dark, no-preference)
 - Emulate via dev tools
+  
   <a href="./Demos/js-demo/index.html"><img src="./images/theme-prefs.png" style="float:right;"> </a>
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-#### Debugging: CSS 
+#### CSS: Inspect Styles  
 
 - Inspect element css 
 - View classes applied to selected element
