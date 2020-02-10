@@ -27,7 +27,6 @@ Debugging tools === Productive programmers
 
 ----
 ### **Things we'll discuss**
-</br>
 
 - Setting up your development environment
 - Troubleshoot web application
@@ -35,37 +34,40 @@ Debugging tools === Productive programmers
 
 ----
 
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-
-  <img src="images/ligatures.png" style="position:absolute;bottom:0;right:0;"/>
-## Setup
-   - Extensions
-     - Beautify
-     - EsLint
-     - Bracket colorizer 
-   - Programming font with ligatures 
-     - Fira Code, Hasklig, Cascadia  
-
+### **JavaScript IDE/Source code editor**
+- Lots of choices 
+  - Atom, Brackets, WebStorm, Sublime, VSCode
+- Debugging support 
+- Extensions 
 
 ----
 
-### **Local web server**
-</br>
-- Setup IIS or Apache 
-  - Visit [http://localhost](http://localhost)
-- Local dev server with live reload:
- - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
- - [local-web-server](https://www.npmjs.com/package/local-web-server)
- - [http-server](https://www.npmjs.com/package/http-server)
+### Extensions
+ - Beautify, Prettier 
+ - EsLint
+ - Bracket colorizer 
+ - Themes 
+  
+<img src="images/Beautify.gif" />
+  
 
 ----
+### Font
 
-### **Code snippets**
+  - Programming font with ligatures 
+  - Fira Code, Hasklig, Cascadia  
+   
+  <img src="images/ligatures.png"/>
+
+  
+----
+
+### **Code snippets/Emmet**
 <img style="float:right" src="https://github.com/Esri/arcgis-js-vscode-snippets/raw/master/./images/code-snippets.gif" alt="example">
 - Templates for reuseable code
 - [ArcGIS API for JavaScript snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets&ssr=false#overview)
 - [Snippet generator](https://pawelgrzybek.com/snippet-generator/)
-- Emmett
+- - Emmett
  - Save keystrokes
  - HTML, CSS abbreviations
  - [Plug-in page](https://emmet.io/download/)
@@ -90,6 +92,18 @@ Debugging tools === Productive programmers
   <video src="images/babel_intellisense.mp4" controls></video>
 
 ----
+
+### **Local web server**
+</br>
+- Setup IIS or Apache 
+  - Visit [http://localhost](http://localhost)
+- Local dev server with live reload:
+ - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+ - [local-web-server](https://www.npmjs.com/package/local-web-server)
+ - [http-server](https://www.npmjs.com/package/http-server)
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+----
+
 
 ### ** Starter App **
 

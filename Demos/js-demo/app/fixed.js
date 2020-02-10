@@ -50,9 +50,12 @@ require([
       includeDefaultSources: false,
       goToOverride: function (view, goToParams) {
         goToParams.target.zoom = 12;
-        return view.goTo(goToParams.target, goToParams.options);
+        return view.goTo(goToParams.target,
+          goToParams.options);
       }
     });
+
+
     view.ui.add(search, "top-trailing");
 
     search.on("search-clear", function () {
