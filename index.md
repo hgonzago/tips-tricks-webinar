@@ -137,14 +137,14 @@ Debugging tools can help determine:
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ## **Browser developer tools**
 
-<img style="width: 60%;" src="images/chrome-dev-tools.png">
+<img style="width: 60%; margin: none; background: none; border: none" src="images/chrome-dev-tools.png">
 
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ### **Debugging: code issues**
 </br>
 - Modules out of order
-- View not ready
+- View, Map, Layer not ready
 - Typos (yes, it happens quite often)
 
 ----
