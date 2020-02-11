@@ -9,8 +9,8 @@ based on dark.css by Ivan Sagalaev
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #3f3f3f;
-  color: #dcdcdc;
+  background: #f5f1cc;
+  color: #340652;
 }
 
 .hljs-keyword,
@@ -60,7 +60,7 @@ based on dark.css by Ivan Sagalaev
 .hljs-string,
 .hljs-built_in,
 .hljs-builtin-name {
-  color: #cc9393;
+  color: #e40909;
 }
 
 .hljs-addition,
