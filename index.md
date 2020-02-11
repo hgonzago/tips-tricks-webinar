@@ -12,16 +12,6 @@ Kelly Hutchins and Heather Gonzago
 
 ----
 
-<!-- .slide: data-background="reveal.js/img/bg-4.png" -->
-</br>
-</br>
-
-### **Slides and demos can be accessed at:**
-
-## <a href="https://shorturl.at/lrtN8" target="_blank">https://shorturl.at/lrtN8</a>
-
-----
-
 Ever have one of those days where nothing seems to work?
 <img style="height: 625px;" src="images/frustrated.jpeg">
 
@@ -37,6 +27,17 @@ Debugging tools === Productive programmers
 <img src="images/debug-happy.png">
 
 ----
+
+<!-- .slide: data-background="reveal.js/img/bg-4.png" -->
+</br>
+</br>
+
+### **Slides and demos can be accessed at:**
+
+## <a href="https://shorturl.at/lrtN8" target="_blank">https://shorturl.at/lrtN8</a>
+
+----
+
 ### **Things we'll discuss**
 </br>
 - Setting up your development environment
@@ -68,7 +69,6 @@ Debugging tools === Productive programmers
  - Themes
   
 <img src="images/pretty.gif" />
-  
 
 ----
 ### Font
@@ -225,16 +225,16 @@ view.when(function(){
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ### Console
 
-- View logged messages
+- View logged messages 
   <a href="./Demos/js-demo/index.html"><img src="images/consoleerror.png"/></a>
-- Run JavaScript
+- Run JavaScript 
   
   <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><img src="images/latlong.png"/></a>
 
 ----
 
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-### CSS: Color Themes
+### CSS: Color Themes 
 
 - Detect user color scheme preferences 
   - CSS media feature (light, dark, no-preference)
@@ -245,7 +245,7 @@ view.when(function(){
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 #### CSS: Inspect Styles  
 
-- Inspect element css
+- Inspect element css 
 - View classes applied to selected element
 <img src="./images/computed-css.png">
 - <a target="_blank" href="https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Search.html">View widget styles</a>
@@ -258,3 +258,5 @@ view.when(function(){
 </br>
 </br>
 [https://github.com/hgonzago/tips-tricks-webinar](https://github.com/hgonzago/tips-tricks-webinar)
+
+
