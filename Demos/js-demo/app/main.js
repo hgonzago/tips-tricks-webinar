@@ -32,10 +32,12 @@ require([
     container: "viewDiv"
   });
 
-  // Make sure that the view/map is fully available in order to get the layer from the map
+  // Make sure that the view/map is fully available
   view.when(function () {
+    // Uncomment for try/catch
+    //try {
     const layer = view.map.findLayerById("NGA_ASAM_1246");
-    // TYPO: Mispell the class namefor layerSearchSource 
+    // TYPO: Mispell the class name for LayerSearchSource 
     // NETWORK: display field points to field with no info
     // inspect the network request to figure this out and 
     // find a better option
@@ -64,6 +66,12 @@ require([
     });
     view.ui.add(search, "top-trailing");
 
+    // Uncomment for try/catch
+    // } 
+    // catch (error) {
+    //   console.error(error);
+    // }
+
     search.on("search-clear", function () {
       graphicsLayer.removeAll();
     });
@@ -81,8 +89,6 @@ require([
         graphicsLayer.add(graphic);
       }
     });
-
   });
-
 
 });

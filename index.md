@@ -107,7 +107,7 @@ Debugging tools === Productive programmers
 
 ## **Demo: Code Assist**
   - Show code assist 
-  - Show emmet 
+  - Show emmet
 
 ----
 
@@ -144,7 +144,7 @@ Debugging tools === Productive programmers
 <img style="float: right"; src="images/onion.jpg">
 
 Debugging tools can help determine:
-- Is it code related?
+- Is the problem with how the code is written?
 - Is the issue on the client (API) or server?
 - Is there a performance issue?
 - Is the issue with the data?
@@ -158,7 +158,7 @@ Debugging tools can help determine:
 
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-### **Debugging: code issues**
+### **Debugging: Code issues**
 </br>
 - Common examples of application-level problems:
   - Modules out of order
@@ -179,6 +179,7 @@ Multiple errors can stem from wrong module order
 
 - Has the view containing the map fully loaded before executing code?
 - Has the <a href= "https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=intro-layers" target="_blank">layer</a> fully loaded before performing specific functions?
+- Wrap problem areas in <code>try/catch</code> statements for troubleshooting
 
 <pre style="display:inline-block; padding: 5px; margin: 10px auto; width: 100%;"><code data-trim> 
 // Create a MapView instance (for 2D viewing)
@@ -198,9 +199,9 @@ view.when(function(){
 
 ----
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-</br>
-</br>
 ### Demo: Debugging code using breakpoints
+
+<img src="images/breakpoints.gif">
 
 ----
 
