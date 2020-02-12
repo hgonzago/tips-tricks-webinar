@@ -76,9 +76,9 @@ require([
       graphicsLayer.removeAll();
     });
 
-    // SECURITY: use a symbol with http 
+    // SECURITY: use a symbol with http BUT notice how it automatically adjusts this to read https, so there are no mixed content issues.
     const pms = new PictureMarkerSymbol({
-      url: "http://hgonzago.esri.com/sites/webinar/js-demo2copy/resources/pirate.png",
+      url: "http://heather.esri.com/Nimtests/pirate.png",
       height: 20,
       width: 20
     });

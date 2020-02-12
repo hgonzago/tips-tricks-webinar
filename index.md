@@ -106,7 +106,8 @@ Debugging tools === Productive programmers
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 
 ## **Demo: Code Assist**
-  - Show code assist 
+</br>
+  - Show code assist
   - Show emmet
 
 ----
@@ -143,7 +144,6 @@ Debugging tools === Productive programmers
 </br>
 <img style="float: right"; src="images/onion.jpg">
 
-Debugging tools can help determine:
 - Is the problem with how the code is written?
 - Is the issue on the client (API) or server?
 - Is there a performance issue?
@@ -208,12 +208,12 @@ view.when(function(){
 ### ** Debugging: Network requests**
 
 </br>
-<img style="float: right;" src="images/network.png">
+<img style="float: right; border: none;" src="images/network.png">
 
 - Records all network requests
-- Inspect network traffic if not getting the correct results, e.g.
+- Inspect network traffic, e.g. 
   - Search widget not displaying properly
-  - Geoprocessing task not executing as expected
+  - GP task not executing as expected
   - Querying layer features
   
 ----
@@ -223,8 +223,15 @@ view.when(function(){
 ### Demo: Network requests
 
 ----
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+</br>
+</br>
+### Debugging: Console and CSS
+
+----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ### Console
+</br>
 
 - View logged messages 
   <a href="./Demos/js-demo/index.html"><img src="images/consoleerror.png"/></a>
@@ -236,7 +243,7 @@ view.when(function(){
 
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ### CSS: Color Themes 
-
+</br>
 - Detect user color scheme preferences 
   - CSS media feature (light, dark, no-preference)
 - Emulate via dev tools
@@ -245,7 +252,7 @@ view.when(function(){
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 #### CSS: Inspect Styles  
-
+</br>
 - Inspect element css 
 - View classes applied to selected element
 <img src="./images/computed-css.png">
@@ -258,9 +265,9 @@ view.when(function(){
 ## Questions?
 </br>
 </br>
-[https://github.com/hgonzago/tips-tricks-webinar](https://github.com/hgonzago/tips-tricks-webinar)
-[ArcGIS API for JavaScript Snippets](https://github.com/hgonzago/tips-tricks-webinar)
-[ArcGIS API for JavaScript Guide topic - TypeScript setup](https://developers.arcgis.com/javascript/latest/guide/typescript-setup/)
-[Intellisense for VSCode - JavaScript projects](https://github.com/kellyhutchins/DS2018-TipsAndTricks/tree/master/CodeAssistDemos/javascript-demo)
+- [https://github.com/hgonzago/tips-tricks-webinar](https://github.com/hgonzago/tips-tricks-webinar)
+- [ArcGIS API for JavaScript Snippets](https://github.com/hgonzago/tips-tricks-webinar)
+- [ArcGIS API for JavaScript Guide topic - TypeScript setup](https://developers.arcgis.com/javascript/latest/guide/typescript-setup/)
+- [Intellisense for VSCode - JavaScript projects](https://github.com/kellyhutchins/DS2018-TipsAndTricks/tree/master/CodeAssistDemos/javascript-demo)
 
 
