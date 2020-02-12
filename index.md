@@ -66,30 +66,43 @@ Debugging tools === Productive programmers
  - Beautify, Prettier 
  - EsLint
  - Bracket colorizer
- - Themes
-  
-<img src="images/pretty.gif" />
+ - Themes,
+ - GitLens
+    
 
 ----
-### Font
+
+### Extension Demo
+
+<img src="./images/pretty.gif" />
+
+----
+
+
+### Programming font
 </br>
-  - Programming font with ligatures
+  - Ligatures
   - Fira Code, Hasklig, Cascadia  
 
   <img src="images/ligatures.png"/>
 
 ----
 
-### **Code snippets/Emmet**
+### **Code snippets**
 </br>
 <img style="float:right" src="https://github.com/Esri/arcgis-js-vscode-snippets/raw/master/./images/code-snippets.gif" alt="example">
 - Templates for reuseable code
 - [ArcGIS API for JavaScript snippets](https://marketplace.visualstudio.com/items?itemName=Esri.arcgis-jsapi-snippets&ssr=false#overview)
 - [Snippet generator](https://pawelgrzybek.com/snippet-generator/)
-- - Emmett
+
+----
+
+### ** Emmet**
+- Emmet
  - Save keystrokes
  - HTML, CSS abbreviations
  - [Plug-in page](https://emmet.io/download/)
+
 
 ----
 
@@ -103,14 +116,7 @@ Debugging tools === Productive programmers
 - <a href="https://developers.arcgis.com/javascript/latest/guide/typescript-setup/" target="_blank">TypeScript setup</a>
 
 ----
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 
-## **Demo: Code Assist**
-</br>
-  - Show code assist
-  - Show emmet
-
-----
 
 ### **Local web server**
 </br>
@@ -224,22 +230,30 @@ view.when(function(){
 
 ----
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-</br>
-</br>
-## Console and CSS
+### Console and CSS 
 
 ----
-<!-- .slide: data-background="reveal.js/img/bg-2.png" -->
-### Console
-</br>
 
-- View logged messages 
+
+<!-- .slide: data-background="reveal.js/img/bg-2.png" -->
+### Console: Log Messages 
+  - Log your own messages
+  - Warning message logged by JSAPI
   <a href="./Demos/js-demo/index.html"><img src="images/consoleerror.png"/></a>
-- Run JavaScript 
+
+
+----
+
+<!-- .slide: data-background="reveal.js/img/bg-2.png" -->
+### Console: Run JavaScript 
+
+ - Execute JavaScript
+ - Check values of objects at an app breakpoint 
   
   <a target="_blank" href="https://developers.arcgis.com/javascript/latest/sample-code/webmap-basic/live/index.html"><img src="images/latlong.png"/></a>
 
 ----
+
 
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
 ### CSS: Color Themes 

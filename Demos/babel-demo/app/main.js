@@ -19,6 +19,7 @@ const view = new MapView({
   map,
   container: "viewDiv"
 });
+
 setupSearch();
 async function setupSearch() {
 
@@ -32,7 +33,6 @@ async function setupSearch() {
     placeholder: "Search incident details",
     withinViewEnabled: true
   });
-
   const search = new Search({
     view,
     sources: [searchSource],
@@ -50,6 +50,8 @@ async function setupSearch() {
     height: 20,
     width: 20
   });
+
+
   search.on("search-clear", () => {
     graphicsLayer.removeAll();
   });
