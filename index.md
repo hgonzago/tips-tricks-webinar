@@ -226,7 +226,7 @@ view.when(function(){
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 </br>
 </br>
-### Debugging: Console and CSS
+## Console and CSS
 
 ----
 <!-- .slide: data-background="reveal.js/img/bg-2.png" -->
