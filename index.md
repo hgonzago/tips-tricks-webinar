@@ -34,7 +34,7 @@ Debugging tools === Productive programmers
 
 ### **Slides and demos can be accessed at:**
 
-## <a href="https://shorturl.at/lrtN8" target="_blank">https://shorturl.at/lrtN8</a>
+## <a href="https://github.com/hgonzago/tips-tricks-webinar" target="_blank">https://github.com/hgonzago/tips-tricks-webinar</a>
 
 ----
 
@@ -259,5 +259,8 @@ view.when(function(){
 </br>
 </br>
 [https://github.com/hgonzago/tips-tricks-webinar](https://github.com/hgonzago/tips-tricks-webinar)
+[ArcGIS API for JavaScript Snippets](https://github.com/hgonzago/tips-tricks-webinar)
+[ArcGIS API for JavaScript Guide topic - TypeScript setup](https://developers.arcgis.com/javascript/latest/guide/typescript-setup/)
+[Intellisense for VSCode - JavaScript projects](https://github.com/kellyhutchins/DS2018-TipsAndTricks/tree/master/CodeAssistDemos/javascript-demo)
 
 
