@@ -282,6 +282,5 @@ view.when(function(){
 - [https://github.com/hgonzago/tips-tricks-webinar](https://github.com/hgonzago/tips-tricks-webinar)
 - [ArcGIS API for JavaScript Snippets](https://github.com/hgonzago/tips-tricks-webinar)
 - [ArcGIS API for JavaScript Guide topic - TypeScript setup](https://developers.arcgis.com/javascript/latest/guide/typescript-setup/)
-- [Intellisense for VSCode - JavaScript projects](https://github.com/kellyhutchins/DS2018-TipsAndTricks/tree/master/CodeAssistDemos/javascript-demo)
 
 
